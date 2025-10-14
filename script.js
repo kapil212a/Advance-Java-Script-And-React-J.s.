@@ -44,19 +44,29 @@ function ChangeColor(color , delay){
     });
 }
 
-ChangeColor("red" , 1000).then(()=>{
-    console.log("Color Will Changed to red");
-    return ChangeColor("blue" , 1000);
+// ChangeColor("red" , 1000).then(()=>{
+//     console.log("Color Will Changed to red");
+//     return ChangeColor("blue" , 1000);
 
-    })
-    .then(()=>{
-        console.log("Color will Change to blue");
-        return ChangeColor("green" , 1000);
-    })
-    .then(()=>{
-        console.log("Color will Change to green");
-        return ChangeColor("purple" , 1000);
-    })
-    .then(()=>{
-        console.log("Color will Change to purple");
-    })
+//     })
+//     .then(()=>{
+//         console.log("Color will Change to blue");
+//         return ChangeColor("green" , 1000);
+//     })
+//     .then(()=>{
+//         console.log("Color will Change to green");
+//         return ChangeColor("purple" , 1000);
+//     })
+//     .then(()=>{
+//         console.log("Color will Change to purple");
+//     })
+
+
+               //At the plase of above function we can also use await 
+
+async function demo() {
+    await ChangeColor("blue" , 1000);
+    await ChangeColor("green" , 1000);
+    await ChangeColor("purple" , 1000);
+    ChangeColor("brown" , 1000);
+}
