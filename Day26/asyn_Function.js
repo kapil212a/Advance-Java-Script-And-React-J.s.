@@ -1,4 +1,4 @@
-async function greet(){
+async function greet(){                       //async function
     throw "404 page not found"
     return "hello";
 }
