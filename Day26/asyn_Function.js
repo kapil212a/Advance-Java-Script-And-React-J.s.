@@ -2,7 +2,7 @@ async function greet(){                       //async function
     throw "404 page not found"
     return "hello";
 }
-greet().then(()=>{
+greet().then(()=>{                           // Error Catch
     console.log("promises are resolved")
 })
 .catch(()=>{
