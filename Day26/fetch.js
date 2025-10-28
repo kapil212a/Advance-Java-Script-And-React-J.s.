@@ -1,4 +1,4 @@
-let url = "https://catfact.ninja/fact";
+let url = "https://catfact.ninja/fact";               //API
 fetch(url)
 .then((res)=>{
     return res.json();
