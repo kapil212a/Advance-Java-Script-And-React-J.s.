@@ -19,7 +19,7 @@ function getNum(){
     });
 }
 
-async function demo(){
+async function demo(){                               //function calling
     await getNum();
     await getNum();
     await getNum();
