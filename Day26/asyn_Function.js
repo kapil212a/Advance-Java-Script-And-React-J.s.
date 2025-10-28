@@ -10,7 +10,7 @@ greet().then(()=>{                           // Error Catch
 })
 
 function getNum(){
-    return new Promise((resolve , reject)=>{
+    return new Promise((resolve , reject)=>{         //get random number
         setTimeout(()=>{
             let num = Math.floor(Math.random()*10)+1;
             console.log(num);
