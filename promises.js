@@ -9,7 +9,7 @@ function saveToDb(data){                                         //Eg.--> Saving
     });
 }
 
-saveToDb("Aman").then((result)=>{
+saveToDb("Aman").then((result)=>{                                // Use of then method for promises
         console.log("Data1 Will Saved");
         console.log(result);
         return saveToDb("Kapil Kumar Gupta");
