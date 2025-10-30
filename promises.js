@@ -1,5 +1,5 @@
-function saveToDb(data){
-    return new Promise((resolve , reject)=>{
+function saveToDb(data){                                         //Eg.--> Saving the data on the data base
+    return new Promise((resolve , reject)=>{                  
         let internetSpeed = Math.floor(Math.random()*10)+1;
         if(internetSpeed > 4){
             resolve("Data will Saved");
