@@ -1,4 +1,4 @@
-let url = "https://catfact.ninja/fact";               //API
+let url = "https://catfact.ninja/fact";               //Random Cat facts API
 fetch(url)
 .then((res)=>{
     return res.json();
