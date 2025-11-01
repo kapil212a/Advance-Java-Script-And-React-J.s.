@@ -1,4 +1,4 @@
-let url = "https://dog.ceo/api/breeds/image/random";
+let url = "https://dog.ceo/api/breeds/image/random";                    //API Dog Fact
 
 let btn = document.querySelector("button");
 
