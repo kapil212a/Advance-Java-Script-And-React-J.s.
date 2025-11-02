@@ -1,0 +1,12 @@
+#ls --- list file
+#pwd --- print working directory
+#cd --- change directory
+#cd .. --- back button/back to dirctory / return back dirctory
+#cd ../.. --- double step back
+
+              --------PATH----------
+
+#cd Desktop/delta (relative path)
+#cd/user/aman/Desktop(relative path)
+#/= -- root directory
+#~= --- home directory
