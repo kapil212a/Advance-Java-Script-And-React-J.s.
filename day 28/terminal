@@ -10,3 +10,23 @@
 #cd/user/aman/Desktop(relative path)
 #/= -- root directory
 #~= --- home directory
+ 
+
+              --------MAKE DIECTORY----------
+
+#mkdir --- make directory
+    //eg - - mkdir Newdir
+ 
+
+                ------FLAGS--------
+
+#ls -/
+#ls -a
+#ls -la - --combine flags
+
+
+                --------TOUCH-------
+
+#touch app.js
+#touch style.css
+#touch abc.txt
