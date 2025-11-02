@@ -1,3 +1,5 @@
+                                    ------------BASIC TERMINAL COMANDS-------------
+
 #ls --- list file
 #pwd --- print working directory
 #cd --- change directory
@@ -30,3 +32,10 @@
 #touch app.js
 #touch style.css
 #touch abc.txt
+
+
+                -------DELETE CMD------
+
+#rm --- remove files
+#rmdir --- remove empty folder
+#rm -rf ---remove any folder
