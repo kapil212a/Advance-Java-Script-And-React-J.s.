@@ -1,0 +1,7 @@
+
+                        ------------GIT COMMAND-------------
+
+#git config --global user.name "My Name"         ----For set the name of your github account
+#git config --global user.name "someone@email.com" -----for set the email of git hub
+#git clone <-some link->  ----for clone the repo
+#git status ---- Display the status of code
