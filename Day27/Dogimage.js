@@ -2,7 +2,7 @@ let url = "https://dog.ceo/api/breeds/image/random";                    //API Do
 
 let btn = document.querySelector("button");
 
-btn.addEventListener("click" , async()=>{
+btn.addEventListener("click" , async()=>{                               //Action on Button
     let link = await getImage();
     let img = document.querySelector("#result");
     img.setAttribute("src" , link);
