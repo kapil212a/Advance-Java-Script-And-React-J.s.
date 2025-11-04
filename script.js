@@ -1,6 +1,6 @@
 //Call Back Hell----->
 function saveToDb(data , succes , failure){
-    let internetSpeed = Math.floor(Math.random()*10)+1;
+    let internetSpeed = Math.floor(Math.random()*10)+1;                        //random number generate
     if(internetSpeed > 4){
         succes();
     }else{
